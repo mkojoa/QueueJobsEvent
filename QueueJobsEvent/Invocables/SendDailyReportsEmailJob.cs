@@ -9,9 +9,10 @@ namespace QueueJobsEvent.Invocables
         {
         }
 
-        public Task Invoke()
+        public async Task Invoke()
         {
             // What is your invocable going to do?
+            await Task.Delay(15000);
         }
     }
 }

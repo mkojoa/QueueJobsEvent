@@ -7,12 +7,18 @@ using System.Threading.Tasks;
 namespace QueueJobsEvent.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/v1/[controller]")]
     public class AccountEventController : Controller
     {
         public AccountEventController()
         {
 
+        }
+
+        [HttpGet("")]
+        public IActionResult TriggerExpensiveStuff()
+        {
+            return Ok();
         }
     }
 }

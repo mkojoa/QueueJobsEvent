@@ -4,5 +4,22 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Coravel" Version="4.0.2" />
+    <PackageReference Include="Coravel.Cache.SQLServer" Version="2.0.0" />
+    <PackageReference Include="Coravel.Mailer" Version="4.0.0" />
+    <PackageReference Include="Coravel.Razor" Version="0.1.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Events\" />
+    <Folder Include="Listeners\" />
+    <Folder Include="Invocables\" />
+    <Folder Include="Mailables\" />
+  </ItemGroup>
+
 
 </Project>

@@ -10,7 +10,7 @@ using QueueJobsEvent.Invocables;
 namespace QueueJobsEvent.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/v1/[controller]")]
     public class QueueController : Controller
     {
         private IQueue _queue;
@@ -20,6 +20,7 @@ namespace QueueJobsEvent.Controllers
             this._queue = queue;
         }
 
+        [HttpGet("")]
         public IActionResult TriggerExpensiveStuff()
         {
             this._queue.QueueInvocable<DoExpensiveCalculationAndStore>();
