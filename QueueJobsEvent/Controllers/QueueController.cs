@@ -21,7 +21,7 @@ namespace QueueJobsEvent.Controllers
         }
 
         [HttpGet("")]
-        public IActionResult TriggerExpensiveStuff()
+        public IActionResult TriggerExpensiveWorkInvocables()
         {
             this._queue.QueueInvocable<DoExpensiveCalculationAndStore>();
             return Ok();

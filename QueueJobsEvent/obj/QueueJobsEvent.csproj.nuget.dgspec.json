@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MAmeyaw\\source\\repo 2021\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MAmeyaw\\source\\repo 2021\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MAmeyaw\\source\\repo 2021\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj",
+        "projectName": "QueueJobsEvent",
+        "projectPath": "C:\\Users\\MAmeyaw\\source\\repo 2021\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj",
+        "packagesPath": "C:\\Users\\MAmeyaw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MAmeyaw\\source\\repo 2021\\QueueJobsEvent\\QueueJobsEvent\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MAmeyaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Coravel": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Coravel.Cache.SQLServer": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Coravel.Mailer": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Coravel.Razor": {
+              "target": "Package",
+              "version": "[0.1.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
