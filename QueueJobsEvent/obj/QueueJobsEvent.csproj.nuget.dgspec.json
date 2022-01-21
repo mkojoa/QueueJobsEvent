@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MAmeyaw\\source\\repo 2021\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj": {}
+    "C:\\Users\\MAmeyaw\\source\\Npa_Project\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MAmeyaw\\source\\repo 2021\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj": {
+    "C:\\Users\\MAmeyaw\\source\\Npa_Project\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MAmeyaw\\source\\repo 2021\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj",
+        "projectUniqueName": "C:\\Users\\MAmeyaw\\source\\Npa_Project\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj",
         "projectName": "QueueJobsEvent",
-        "projectPath": "C:\\Users\\MAmeyaw\\source\\repo 2021\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj",
+        "projectPath": "C:\\Users\\MAmeyaw\\source\\Npa_Project\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj",
         "packagesPath": "C:\\Users\\MAmeyaw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MAmeyaw\\source\\repo 2021\\QueueJobsEvent\\QueueJobsEvent\\obj\\",
+        "outputPath": "C:\\Users\\MAmeyaw\\source\\Npa_Project\\QueueJobsEvent\\QueueJobsEvent\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -82,6 +82,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.20, 3.1.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -90,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     }

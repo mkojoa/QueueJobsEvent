@@ -4174,7 +4174,7 @@
       ]
     },
     "runtime.native.System.Net.Security/4.3.0": {
-      "sha512": "M2nN92ePS8BgQ2oi6Jj3PlTUzadYSIWLdZrHY1n1ZcW9o4wAQQ6W+aQ2lfq1ysZQfVCgDwY58alUdowrzezztg==",
+      "sha512": "tnAtFmLJ+v4dBG1eEVU5DYHKbq1C4JUJLQY4nSs4zxDUfftPzZLpVTMQHvmRDtnRiznh4OTBTx/sKAAIBrR0dQ==",
       "type": "package",
       "path": "runtime.native.system.net.security/4.3.0",
       "files": [
@@ -5819,7 +5819,7 @@
       ]
     },
     "System.Net.NameResolution/4.3.0": {
-      "sha512": "AFYl08R7MrsrEjqpQWTZWBadqXyTzNDaWpMqyxhb0d6sGhV6xMDKueuBXlLL30gz+DIRY6MpdgnHWlCh5wmq9w==",
+      "sha512": "u+M8H6psJXrT3sIBqL93GozY5KqNhmE1rQVad9rt1/yTWTZ7HEB1RHuh550LUI+4C26nnfa5MLnyhnWcDTrZ3g==",
       "type": "package",
       "path": "system.net.nameresolution/4.3.0",
       "files": [
@@ -6950,7 +6950,7 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.3.0": {
-      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+      "sha512": "SUncOOeBqXoROcnxxNFkUDWGU6vLXn3y1qHjOTBIRXY1o8voL97vfXh7g+4JZj29iizXgeNR18PwaMikeP8DGA==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.3.0",
       "files": [
@@ -7065,7 +7065,7 @@
       ]
     },
     "System.Security.Claims/4.3.0": {
-      "sha512": "P/+BR/2lnc4PNDHt/TPBAWHVMLMRHsyYZbU1NphW4HIWzCggz8mJbTQQ3MKljFE7LS3WagmVFuBgoLcFzYXlkA==",
+      "sha512": "NZ6w8uiGlhByN35DTu/SEVqUEKIlB1EoOZTboF1NlrP1biRh7j6EYfCr/OPGqZ96vGOBvQQn73dQcwXdCHSZ8g==",
       "type": "package",
       "path": "system.security.claims/4.3.0",
       "files": [
@@ -7452,7 +7452,7 @@
       ]
     },
     "System.Security.Principal/4.3.0": {
-      "sha512": "I1tkfQlAoMM2URscUtpcRo/hX0jinXx6a/KUtEQoz3owaYwl3qwsO8cbzYVVnjxrzxjHo3nJC+62uolgeGIS9A==",
+      "sha512": "qeHRPUsvR1Cpn9mdaENe6iGofszJSycOrLCDw3YgcVcJx7rhEIyaq8Lwmk8/jcIeooNc1srdpM7/nLS7ynzB5A==",
       "type": "package",
       "path": "system.security.principal/4.3.0",
       "files": [
@@ -8019,7 +8019,7 @@
       ]
     },
     "System.Threading.ThreadPool/4.3.0": {
-      "sha512": "k/+g4b7vjdd4aix83sTgC9VG6oXYKAktSfNIJUNGxPEj7ryEOfzHHhfnmsZvjxawwcD9HyWXKCXmPjX8U4zeSw==",
+      "sha512": "y659p2A+OlWOiIk3cbsIgKFOABaIs40gJLCp7RNxdJ8wPENFcDbzt1MVm7o8NPuAhwvoPollh2w3c+EVMHzx7A==",
       "type": "package",
       "path": "system.threading.threadpool/4.3.0",
       "files": [
@@ -8271,11 +8271,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MAmeyaw\\source\\repo 2021\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj",
+      "projectUniqueName": "C:\\Users\\MAmeyaw\\source\\Npa_Project\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj",
       "projectName": "QueueJobsEvent",
-      "projectPath": "C:\\Users\\MAmeyaw\\source\\repo 2021\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj",
+      "projectPath": "C:\\Users\\MAmeyaw\\source\\Npa_Project\\QueueJobsEvent\\QueueJobsEvent\\QueueJobsEvent.csproj",
       "packagesPath": "C:\\Users\\MAmeyaw\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MAmeyaw\\source\\repo 2021\\QueueJobsEvent\\QueueJobsEvent\\obj\\",
+      "outputPath": "C:\\Users\\MAmeyaw\\source\\Npa_Project\\QueueJobsEvent\\QueueJobsEvent\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8346,6 +8346,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.20, 3.1.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8354,7 +8364,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
       }
     }
   }

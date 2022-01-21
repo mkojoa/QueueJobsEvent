@@ -1,21 +1,15 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Coravel;
 using Coravel.Events.Interfaces;
 using Coravel.Queuing.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using QueueJobsEvent.Events;
 using QueueJobsEvent.Invocables;
-using QueueJobsEvent.Listeners;
 
 namespace QueueJobsEvent
 {
@@ -35,7 +29,7 @@ namespace QueueJobsEvent
 
 
             /*
-             * ****** Coravel Scheduling;Queuing;Mail ******
+             * ****** Scheduling;Queuing;Mail ******
              */
             services.AddScheduler();
             services.AddQueue();
@@ -46,16 +40,6 @@ namespace QueueJobsEvent
              * ****** Register Invocables ******
              */
             services.AddScoped<DoExpensiveCalculationAndStore>();
-            services.AddScoped<SendDailyReportsEmailJob>();
-
-
-            /*
-             * ****** Register Event Listiners ******
-             */
-            services.AddEvents();
-            services.AddTransient<NotifyAccountByEmailListener>()
-                    .AddTransient<NotifyAdministratorsListener>();
-
             SwaggerConfiguration(services);
 
         }
@@ -88,13 +72,7 @@ namespace QueueJobsEvent
 
             IEventRegistration registration = app.ApplicationServices.ConfigureEvents();
 
-            /*
-             * ****** Bind Event with Listiners ******
-             */
-            registration.Register<AccountCreated>()
-                .Subscribe<NotifyAccountByEmailListener>()
-                .Subscribe<NotifyAdministratorsListener>();
-
+          
             //app.ApplicationServices.UseScheduler(scheduler =>
             //{
             //    scheduler.OnWorker("CPUIntensiveTasks");

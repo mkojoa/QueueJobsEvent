@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Events\" />
     <Folder Include="Invocables\" />
     <Folder Include="Mailables\" />
   </ItemGroup>
